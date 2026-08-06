@@ -1,39 +1,52 @@
 # Fluent UI Libraries
 
-## PyQt-Fluent-Widgets
+---
 
-Repository:
+## Repository 1
+
+### Name
+PyQt-Fluent-Widgets
+
+### GitHub
 https://github.com/zhiyiYo/PyQt-Fluent-Widgets
 
-Purpose:
-Modern Fluent Design components inspired by Windows 11.
+### Status
+Verified
 
-Useful Features:
+### Why it is useful
+- Modern Windows 11 Fluent Design
+- Professional widgets
 - Navigation panels
 - Cards
 - Tables
-- Dialogs
 - Settings pages
-- Dashboard controls
 
-Use Cases:
-University management systems
-Hospital systems
-Banking software
-Desktop ERP applications
-
-----------------------------------------
-
-## PySide6-Fluent-Widgets
-
-Search GitHub:
-PySide6 Fluent Widgets
-
-Purpose:
-Fluent UI components for PySide6.
-
-Useful Features:
-- Responsive interface
+### Claude should study
 - Navigation
 - Cards
-- Buttons
+- Dialogs
+- Theme switching
+
+---
+
+## Repository 2
+
+### Name
+PySide6-FluentUI-QML
+
+### GitHub
+https://github.com/zhuzichu520/PySide6-FluentUI-QML
+
+### Status
+Verified
+
+### Why it is useful
+- Fluent UI controls for PySide6
+- QML support
+- Responsive layouts
+- Modern interface
+
+### Claude should study
+- QML structure
+- Navigation
+- Responsive layouts
