@@ -35,3 +35,23 @@ Printing
 Export
 
 Import
+
+
+# Verified UI Example Project Standards
+
+UI examples should demonstrate practical patterns that can be reused in real desktop applications.
+
+## Example: Dashboard
+
+A professional dashboard may contain:
+
+```text
+Header
+   ↓
+Sidebar
+   ↓
+Summary Cards
+   ↓
+Charts
+   ↓
+Data Table
