@@ -361,3 +361,60 @@ Useful for developer tools, installers and command-line utilities that accompany
 - Secure environment configuration
 - Fault-tolerant operations
 - Developer tools
+
+---
+
+# Utilities Development Standards
+
+Claude should use small, reliable utility modules for common tasks instead of repeating the same code throughout the application.
+
+## Common Utility Modules
+
+A professional desktop application may include:
+
+- Date and time utilities
+- File utilities
+- Folder utilities
+- Validation utilities
+- String utilities
+- Number utilities
+- Formatting utilities
+- Encryption utilities
+- Logging utilities
+- Configuration utilities
+- Clipboard utilities
+- Notification utilities
+- Network utilities
+- System utilities
+- Export utilities
+
+---
+
+## Date and Time
+
+The application should handle dates consistently.
+
+Common requirements include:
+
+- Current date
+- Current time
+- Date formatting
+- Date-range calculations
+- Academic sessions
+- Semester dates
+- Approval dates
+- Examination dates
+- Report dates
+
+Use a consistent internal date format.
+
+Display dates in a user-friendly format.
+
+Example:
+
+```text
+Database:
+2026-08-08
+
+Display:
+8 August 2026
