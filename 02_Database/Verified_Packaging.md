@@ -257,3 +257,41 @@ Allows deployed desktop applications to check for and install updates automatica
 - Deploy commercial desktop software
 - Enable automatic updates
 - Protect application source code
+
+---
+
+# Packaging and Deployment Standards
+
+Claude should build desktop applications that can be packaged and installed easily on Windows computers without requiring the user to install Python.
+
+## Primary Packaging Tool
+
+### PyInstaller
+
+### GitHub
+https://github.com/pyinstaller/pyinstaller
+
+### Purpose
+Packages Python applications and their dependencies into distributable applications.
+
+### Claude Should Study
+- Application bundling
+- Executable creation
+- Hidden imports
+- Resource files
+- Application icons
+- One-folder builds
+- One-file builds
+- Spec files
+
+### Recommendation
+Use PyInstaller as the default packaging tool for Python desktop applications unless project requirements require another solution.
+
+---
+
+## Windows Executable
+
+The final application should be capable of producing:
+
+```text
+Application.exe
