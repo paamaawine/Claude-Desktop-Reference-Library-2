@@ -144,3 +144,22 @@ Service Layer
 Repository Layer
  |
 Database
+
+# Verified Database Standards
+
+Claude should use a reliable database design that protects data integrity and keeps database operations separate from the user interface.
+
+## Database Design
+
+Use clear tables, relationships and constraints.
+
+A typical structure is:
+
+```text
+Application
+    ↓
+Service Layer
+    ↓
+Repository Layer
+    ↓
+Database
