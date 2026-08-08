@@ -234,3 +234,101 @@ Essential when preparing images before printing or embedding them into reports.
 - Barcode labels
 - Library cards
 - Examination slips
+
+---
+
+# Printing Development Standards
+
+Claude should treat printing as a core feature of professional desktop applications.
+
+## Core Printing Features
+
+Applications should support:
+
+- Print preview
+- Printer selection
+- Print
+- Number of copies
+- Page range
+- Portrait orientation
+- Landscape orientation
+- Paper size
+- Margins
+- Page scaling
+- Collation
+- Print to PDF where supported
+
+---
+
+## Print Preview
+
+Every important official document should provide a print preview before printing.
+
+The preview should allow users to:
+
+- View pages
+- Navigate between pages
+- Zoom in
+- Zoom out
+- Fit page
+- Fit width
+- Select pages
+- Print
+- Export to PDF
+
+---
+
+## University Documents
+
+For academic management applications, printing should support documents such as:
+
+- Admission letters
+- Senate approval records
+- Senate meeting reports
+- Student transcripts
+- Result sheets
+- Certificates
+- Attestation letters
+- Examination reports
+- Student lists
+- Plagiarism reports
+- Staff reports
+- Official correspondence
+
+---
+
+## Document Layout
+
+Official documents should support:
+
+- Institution logo
+- Institution name
+- Faculty
+- Department
+- Document title
+- Student information
+- Registration number
+- Date
+- Reference number
+- Main content
+- Signature section
+- Approval section
+- Footer
+- Page numbers
+
+---
+
+## Print Templates
+
+Use reusable templates rather than creating each printed document from scratch.
+
+Recommended structure:
+
+```text
+Print Template
+    |
+    ├── Header
+    ├── Document Information
+    ├── Main Content
+    ├── Signature / Approval
+    └── Footer
