@@ -259,6 +259,7 @@ Administrator
 
 Registry Staff
     → Student records
+    → Full system access
     → Transcripts
     → Senate records
 
@@ -273,3 +274,22 @@ Lecturer
 Auditor
     → Audit records
     → Approved reports
+
+# Verified Authentication Standards
+
+Authentication should verify the identity of users before protected parts of the application are accessed.
+
+## Login
+
+A standard login process should include:
+
+```text
+Username / Email
+       ↓
+Password
+       ↓
+Authentication
+       ↓
+Permission Check
+       ↓
+Application
