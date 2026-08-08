@@ -84,3 +84,46 @@ C++ implementation of Font Awesome icons for Qt.
 - Icon rendering
 - Qt icon engine
 - Theme compatibility
+
+# Verified Icon Standards
+
+Icons should improve navigation and understanding without making the interface harder to use.
+
+## Icon Selection
+
+Use icons that clearly represent their actions.
+
+Examples:
+
+- Add → Plus
+- Edit → Pencil
+- Delete → Bin
+- Search → Magnifying glass
+- Settings → Gear
+- Save → Disk
+- Print → Printer
+- Export → Download
+- Import → Upload
+
+Use familiar symbols where possible.
+
+## Consistency
+
+Icons should have:
+
+- Consistent visual style
+- Consistent size
+- Consistent alignment
+- Consistent spacing
+
+Do not mix unrelated icon styles without a clear design reason.
+
+## Icon Buttons
+
+Icon-only buttons should have tooltips.
+
+Example:
+
+```text
+[🔍]
+Search
