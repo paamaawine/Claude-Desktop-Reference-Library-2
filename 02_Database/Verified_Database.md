@@ -89,3 +89,58 @@ Use:
 
 Status:
 Verified
+
+---
+
+# Database Development Standards
+
+Claude should use a reliable database architecture for all desktop applications.
+
+## Primary Database
+
+### SQLite
+
+SQLite should be the default database for applications that need:
+
+- Offline operation
+- Local data storage
+- Student records
+- Staff records
+- Senate records
+- Transcript records
+- Settings
+- Audit logs
+- Application configuration
+
+### Recommended SQLite Features
+
+Claude should consider:
+
+- Foreign keys
+- Transactions
+- Indexes
+- Views
+- Triggers
+- WAL mode
+- Full-text search
+- Database backup
+- Database integrity checks
+
+---
+
+## Database Architecture
+
+The application should separate database access from the user interface.
+
+Recommended structure:
+
+```text
+UI
+ |
+ViewModel / Controller
+ |
+Service Layer
+ |
+Repository Layer
+ |
+Database
