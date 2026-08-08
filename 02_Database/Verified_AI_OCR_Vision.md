@@ -265,3 +265,26 @@ Ideal for extracting structured information from complex documents.
 - Camera integration
 - Document digitisation
 - AI-powered image analysis
+
+---
+
+# AI, OCR and Computer Vision Standards
+
+Claude should add AI features only where they solve a clear application need.
+
+AI modules should remain separate from the main user interface and business logic.
+
+## AI Architecture
+
+Use the following structure:
+
+```text
+User Interface
+      |
+AI Controller
+      |
+AI Service
+      |
+AI Model
+      |
+Data / Document
