@@ -209,3 +209,74 @@ Provides an additional option for generating printable reports from HTML templat
 - Staff reports
 - Printable forms
 - Official correspondence
+
+---
+
+# Reporting Development Standards
+
+Claude should design reporting systems that allow users to generate, view, print, save and export professional reports.
+
+## Core Reporting Features
+
+A professional desktop application should support:
+
+- Report generation
+- Report preview
+- Report printing
+- PDF export
+- Excel export
+- CSV export
+- Word export where required
+- Report filtering
+- Date-range filtering
+- Search
+- Sorting
+- Page numbering
+- Report headers
+- Report footers
+- Institutional branding
+- User information
+- Report generation date
+- Digital or electronic approval fields where required
+
+---
+
+## Report Viewer
+
+The application should provide a dedicated report viewer.
+
+The viewer should support:
+
+- Zoom in
+- Zoom out
+- Fit to page
+- Fit to width
+- Page navigation
+- Search within report
+- Print
+- Save
+- Export
+- Refresh
+
+The report viewer should not freeze the application while a report is being generated.
+
+---
+
+## Report Filters
+
+Reports should allow users to filter information before generation.
+
+Common filters include:
+
+```text
+Date
+Student
+Registration Number
+Department
+Faculty
+Programme
+Session
+Semester
+Status
+Approval Status
+User
