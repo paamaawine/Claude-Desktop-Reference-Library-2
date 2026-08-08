@@ -264,3 +264,49 @@ Animated collapsible sidebar using QPropertyAnimation.
 - Sidebar animation
 - Navigation panels
 - Responsive menus
+
+# Verified Animation Standards
+
+Animations should improve the user experience without distracting from the user's work.
+
+## Purpose
+
+Use animation to communicate:
+
+- State changes
+- Navigation
+- Progress
+- Expansion and collapse
+- Loading
+- Component transitions
+
+Do not use animation only for decoration.
+
+## Qt Animation
+
+For PySide6 or PyQt applications, use Qt's animation framework where appropriate.
+
+Suitable classes include:
+
+- QPropertyAnimation
+- QSequentialAnimationGroup
+- QParallelAnimationGroup
+- QPauseAnimation
+
+## QPropertyAnimation
+
+QPropertyAnimation can animate properties such as:
+
+- Position
+- Size
+- Geometry
+- Opacity where supported through suitable properties
+- Custom Qt properties
+
+Example uses:
+
+```text
+Sidebar expansion
+Dialog appearance
+Button transitions
+Panel movement
