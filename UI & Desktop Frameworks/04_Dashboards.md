@@ -193,3 +193,22 @@ Real-time Qt dashboard for data visualisation.
 - Live charts
 - Layout management
 - Data presentation
+
+# Verified Dashboard Standards
+
+Dashboards should present important information clearly without overwhelming the user.
+
+## Dashboard Structure
+
+A typical dashboard may contain:
+
+```text
+Header
+   ↓
+Navigation
+   ↓
+Summary Cards
+   ↓
+Charts and Tables
+   ↓
+Recent Activity
