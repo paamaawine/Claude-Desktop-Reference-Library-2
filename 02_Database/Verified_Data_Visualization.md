@@ -366,3 +366,138 @@ Useful for visualising workflows, organisational structures and AI decision mode
 - Scientific plotting
 - Management reports
 - Interactive desktop dashboards
+
+# Verified Data Visualisation Standards
+
+Data visualisation should help users understand patterns, comparisons, relationships and distributions.
+
+## Matplotlib
+
+Matplotlib is an approved library for creating static charts and figures.
+
+GitHub Repository:
+
+https://github.com/matplotlib/matplotlib
+
+Status: APPROVED
+
+Use Matplotlib when the application needs:
+
+- Line charts
+- Bar charts
+- Histograms
+- Scatter plots
+- Box plots
+- Area charts
+- Custom figures
+
+## Seaborn
+
+Seaborn may be used when statistical visualisations are required.
+
+GitHub Repository:
+
+https://github.com/mwaskom/seaborn
+
+Use it when its statistical chart features provide a clear benefit.
+
+Do not add Seaborn when Matplotlib alone is sufficient.
+
+## Chart Selection
+
+Use:
+
+- Line charts for trends over time
+- Bar charts for comparisons
+- Horizontal bar charts for ranked categories
+- Pie or doughnut charts for simple proportions
+- Scatter plots for relationships between variables
+- Histograms for distributions
+- Box plots for comparing distributions
+- Heatmaps for matrix relationships
+
+## Chart Accuracy
+
+Charts must represent the underlying data accurately.
+
+Avoid:
+
+- Misleading scales
+- Unlabelled axes
+- Unclear units
+- Excessive decoration
+- Unnecessary three-dimensional effects
+
+## Chart Titles
+
+Use clear titles where they help explain the chart.
+
+Titles should describe the information being shown.
+
+## Axis Labels
+
+Label axes when the meaning of the values is not obvious.
+
+Include units where required.
+
+## Legends
+
+Use legends when multiple data series are displayed.
+
+Do not include a legend when it adds no useful information.
+
+## Missing Data
+
+Clearly indicate when data are missing.
+
+Do not represent missing values as zero unless zero is the correct meaning.
+
+## Theme Consistency
+
+Charts should follow the application's visual style where appropriate.
+
+Fonts, spacing and layout should remain readable.
+
+## Export
+
+Where required, support export to suitable formats.
+
+Examples include:
+
+- PNG
+- SVG
+- PDF
+- CSV
+- XLSX
+
+## Performance
+
+Large datasets should be processed before visualisation where necessary.
+
+Avoid rendering unnecessary points that do not improve understanding.
+
+## Accessibility
+
+Do not rely on colour alone.
+
+Use:
+
+- Labels
+- Legends
+- Patterns where useful
+- Different line styles
+- Clear annotations
+
+## Visualisation Checklist
+
+- [ ] Correct chart type selected
+- [ ] Data represented accurately
+- [ ] Title used where useful
+- [ ] Axes labelled
+- [ ] Units provided where required
+- [ ] Legend used where necessary
+- [ ] Missing data handled
+- [ ] Charts remain readable
+- [ ] Accessibility considered
+- [ ] Export tested where required
+- [ ] Large datasets handled efficiently
