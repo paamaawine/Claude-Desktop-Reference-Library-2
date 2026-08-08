@@ -371,3 +371,156 @@ Makes datasets cleaner and easier to analyse before reporting or machine learnin
 - Enterprise reporting
 - ETL workflows
 - Big data applications
+
+# Verified Data Processing Standards
+
+Claude should use reliable and well-tested Python tools for data processing.
+
+## Pandas
+
+Pandas should be the preferred library for structured tabular data processing.
+
+Suitable tasks include:
+
+- Data cleaning
+- Filtering
+- Sorting
+- Grouping
+- Merging
+- Reshaping
+- Missing-value handling
+- Descriptive statistics
+- Import and export
+
+GitHub Repository:
+
+https://github.com/pandas-dev/pandas
+
+Status: APPROVED
+
+## NumPy
+
+NumPy should be used for numerical operations and array-based computation.
+
+Suitable tasks include:
+
+- Numerical arrays
+- Mathematical operations
+- Matrix operations
+- Statistical calculations
+- Numerical transformations
+
+GitHub Repository:
+
+https://github.com/numpy/numpy
+
+Status: APPROVED
+
+## Data Cleaning
+
+Imported data should be checked before analysis.
+
+Check for:
+
+- Missing values
+- Duplicate records
+- Invalid values
+- Incorrect data types
+- Inconsistent categories
+- Impossible values
+- Incorrect dates
+
+## Missing Values
+
+Missing values should be handled according to the nature of the data.
+
+Possible approaches include:
+
+- Removing records
+- Replacing values
+- Forward filling
+- Backward filling
+- Statistical imputation
+
+The chosen method should be documented.
+
+## Data Types
+
+Columns should use appropriate data types.
+
+Examples include:
+
+- Integer
+- Float
+- String
+- Boolean
+- Date
+- DateTime
+- Categorical
+
+Correct data types improve processing and reduce errors.
+
+## Duplicate Records
+
+Check for duplicate records where duplicates could affect the results.
+
+Do not automatically delete duplicates without determining whether they are genuine duplicates.
+
+## Data Validation
+
+Validate important datasets before analysis.
+
+Check:
+
+- Row counts
+- Column names
+- Data types
+- Value ranges
+- Required fields
+- Duplicate records
+- Missing values
+
+## Large Datasets
+
+Large datasets should be processed efficiently.
+
+Consider:
+
+- Chunked processing
+- Filtering before loading
+- Efficient data types
+- Vectorised operations
+- Database queries
+
+Avoid unnecessary copies of large datasets.
+
+## Import and Export
+
+Common formats include:
+
+- CSV
+- Excel
+- JSON
+- Parquet
+- SQL databases
+
+Validate imported files before processing them.
+
+## Reproducibility
+
+Data-processing steps should be reproducible.
+
+Important transformations should be documented or implemented in reusable functions.
+
+## Data Processing Checklist
+
+- [ ] Appropriate library selected
+- [ ] Data types checked
+- [ ] Missing values checked
+- [ ] Duplicate records checked
+- [ ] Invalid values checked
+- [ ] Data validated
+- [ ] Large datasets handled efficiently
+- [ ] Transformations documented
+- [ ] Import and export tested
+- [ ] Processing is reproducible
