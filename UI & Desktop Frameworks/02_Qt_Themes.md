@@ -91,3 +91,34 @@ Material Design widgets for Qt desktop applications.
 - Material Design implementation
 - Custom controls
 - UI consistency
+
+# Verified Qt Theme Standards
+
+Qt themes should provide a consistent appearance across the application.
+
+## Theme Modes
+
+Where required, support:
+
+- Light mode
+- Dark mode
+- System mode
+
+The selected theme should apply consistently across the application.
+
+## Centralised Theme Management
+
+Theme definitions should be maintained centrally.
+
+Avoid defining the same colours, fonts and spacing values repeatedly across individual screens.
+
+Recommended structure:
+
+```text
+Application
+    ↓
+Theme Manager
+    ↓
+Global Theme
+    ↓
+UI Components
