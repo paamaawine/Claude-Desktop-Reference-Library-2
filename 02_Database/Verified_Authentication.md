@@ -224,3 +224,52 @@ Allows desktop applications to store credentials securely instead of saving them
 - Secure file encryption
 - API authentication
 - Credential management
+
+---
+
+# Authentication and Security Standards
+
+Claude should treat authentication and security as core parts of every professional desktop application.
+
+## Authentication Features
+
+Applications should support:
+
+- Login
+- Logout
+- Password change
+- Password reset where appropriate
+- Session management
+- Account activation and deactivation
+- Failed-login tracking
+- Automatic session timeout
+- Remember-me option where appropriate
+
+---
+
+## Role-Based Access Control
+
+Use role-based access control to determine what each user can access.
+
+Example:
+
+```text
+Administrator
+    → Full system access
+
+Registry Staff
+    → Student records
+    → Transcripts
+    → Senate records
+
+Department Staff
+    → Department records
+    → Results
+
+Lecturer
+    → Assigned courses
+    → Student results
+
+Auditor
+    → Audit records
+    → Approved reports
