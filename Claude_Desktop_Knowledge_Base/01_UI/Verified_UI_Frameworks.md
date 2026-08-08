@@ -286,3 +286,334 @@ Main Area
     ├── Charts
     ├── Data Tables
     └── Recent Activity
+
+
+---
+
+# Animation References
+
+This section contains verified Qt and PySide6 projects that demonstrate animation techniques for desktop applications.
+
+## Repository 1
+
+### Name
+Rev-RoastedDuck/Qt-RoastedDuck-Widgets
+
+### GitHub
+https://github.com/Rev-RoastedDuck/Qt-RoastedDuck-Widgets
+
+### Description
+A Python Qt widget library based on animated Material Design components.
+
+### Claude Should Study
+- Animated widgets
+- Material Design effects
+- Button animations
+- Widget transitions
+- Qt animation techniques
+
+### Recommendation
+Use as a reference when building polished animated Qt widgets.
+
+---
+
+## Repository 2
+
+### Name
+niklashenning/pyqtcountup
+
+### GitHub
+https://github.com/niklashenning/pyqtcountup
+
+### Description
+A numerical data animation library for PyQt and PySide labels.
+
+### Claude Should Study
+- Animated numerical values
+- Counter animations
+- Dashboard statistics
+- Label transitions
+
+### Recommendation
+Use for animated dashboard statistics and KPI counters.
+
+---
+
+## Repository 3
+
+### Name
+Video-Nomad/qt-css-engine
+
+### GitHub
+https://github.com/Video-Nomad/qt-css-engine
+
+### Description
+A CSS transition system for PyQt6 and PySide6.
+
+### Claude Should Study
+- CSS-like transitions
+- Widget state changes
+- Smooth property transitions
+- Interface effects
+
+### Recommendation
+Use when smooth transitions are needed between widget states.
+
+---
+
+## Repository 4
+
+### Name
+majuch/PySide6-Shadcn-Widgets
+
+### GitHub
+https://github.com/majuch/PySide6-Shadcn-Widgets
+
+### Description
+A modern PySide6 UI library inspired by shadcn/ui components and animations.
+
+### Claude Should Study
+- Modern component design
+- Animated UI components
+- Cards
+- Buttons
+- Dialogs
+- Modern desktop styling
+
+### Recommendation
+Use as a reference for modern PySide6 component design.
+
+---
+
+## Repository 5
+
+### Name
+marconhenning/pyqt-loading-button
+
+### GitHub
+https://github.com/marconhenning/pyqt-loading-button
+
+### Description
+A QPushButton with built-in loading animations for PyQt and PySide.
+
+### Claude Should Study
+- Loading states
+- Progress feedback
+- Button animations
+- Asynchronous task feedback
+
+### Recommendation
+Use for buttons that perform operations requiring visible progress feedback.
+
+---
+
+## Repository 6
+
+### Name
+dimkanovikov/WidgetAnimationFramework
+
+### GitHub
+https://github.com/dimkanovikov/WidgetAnimationFramework
+
+### Description
+A Qt library for animating widgets.
+
+### Claude Should Study
+- Widget animation
+- Animation timing
+- UI transitions
+- Animated interface components
+
+### Recommendation
+Use as a reference for reusable widget animation systems.
+
+---
+
+## Repository 7
+
+### Name
+iwxyi/Qt-InteractiveButtons
+
+### GitHub
+https://github.com/iwxyi/Qt-InteractiveButtons
+
+### Description
+Qt widgets with interactive animations and custom button behaviour.
+
+### Claude Should Study
+- Interactive buttons
+- Hover effects
+- Button transitions
+- Custom widget behaviour
+
+### Recommendation
+Use for interactive button design.
+
+---
+
+## Repository 8
+
+### Name
+iwxyi/Qt-FacileMenu
+
+### GitHub
+https://github.com/iwxyi/Qt-FacileMenu
+
+### Description
+An animated Qt menu widget.
+
+### Claude Should Study
+- Animated menus
+- Menu transitions
+- Sidebar interactions
+- Navigation effects
+
+### Recommendation
+Use when implementing animated navigation menus.
+
+---
+
+## Repository 9
+
+### Name
+Furkanzmc/QML-loaders
+
+### GitHub
+https://github.com/Furkanzmc/QML-loaders
+
+### Description
+Loading animation implementations using QML.
+
+### Claude Should Study
+- Loading indicators
+- QML animation
+- Progress feedback
+- Application startup states
+
+### Recommendation
+Use as a reference when QML is used for animated loading interfaces.
+
+---
+
+## Repository 10
+
+### Name
+iwxyi/Qt-DraggableTabWidget
+
+### GitHub
+https://github.com/iwxyi/Qt-DraggableTabWidget
+
+### Description
+A Qt tab widget supporting draggable tabs and tab merging.
+
+### Claude Should Study
+- Draggable tabs
+- Tab interactions
+- Animated tab behaviour
+- Advanced navigation
+
+### Recommendation
+Use when applications require flexible multi-document tab interfaces.
+
+---
+
+## Repository 11
+
+### Name
+Wanderson-Magalhaes/QPropertyAnimation_PySide2_PyQt5_Widgets_Animation
+
+### GitHub
+https://github.com/Wanderson-Magalhaes/QPropertyAnimation_PySide2_PyQt5_Widgets_Animation
+
+### Description
+Examples of widget animation using Qt's QPropertyAnimation system.
+
+### Claude Should Study
+- QPropertyAnimation
+- Widget movement
+- Widget resizing
+- Opacity effects
+- Sidebar animation
+- Sequential animations
+
+### Recommendation
+Use QPropertyAnimation as the preferred Qt-native approach for simple widget animations.
+
+---
+
+## Repository 12
+
+### Name
+Tuhin-thinks/PySide2-Side-Menu
+
+### GitHub
+https://github.com/Tuhin-thinks/PySide2-Side-Menu
+
+### Description
+An implementation of a side menu using PySide and QPropertyAnimation.
+
+### Claude Should Study
+- Collapsible sidebars
+- Navigation animation
+- QPropertyAnimation
+- Sidebar transitions
+
+### Recommendation
+Use as a reference for animated collapsible navigation.
+
+---
+
+## Repository 13
+
+### Name
+janbodnar/pyqt-qpropertyanimation
+
+### GitHub
+https://github.com/janbodnar/pyqt-qpropertyanimation
+
+### Description
+Examples based on Qt QPropertyAnimation.
+
+### Claude Should Study
+- Property animation
+- Widget movement
+- Widget geometry
+- Animation control
+
+### Recommendation
+Use as a basic reference for Qt property animation.
+
+---
+
+# Animation Standards
+
+Claude should use animation to improve usability, not merely decoration.
+
+Preferred uses include:
+
+- Sidebar expansion
+- Sidebar collapse
+- Page transitions
+- Button feedback
+- Loading indicators
+- Progress feedback
+- Dashboard counters
+- Dialog appearance
+- Notification appearance
+- Tab transitions
+- Expandable panels
+
+Animations should be short and purposeful.
+
+Avoid excessive animation in data-heavy applications.
+
+## Preferred Qt Animation Tools
+
+Use Qt-native animation classes where appropriate:
+
+```text
+QPropertyAnimation
+QSequentialAnimationGroup
+QParallelAnimationGroup
+QPauseAnimation
+QVariantAnimation
