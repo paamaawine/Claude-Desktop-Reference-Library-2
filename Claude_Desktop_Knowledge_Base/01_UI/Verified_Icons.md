@@ -79,3 +79,39 @@ Backup       → archive/database
 Restore      → restore
 Notifications → bell
 Logout       → sign-out
+
+
+# Verified UI Icon Standards
+
+Icons should make actions easy to recognise and should remain consistent across the application.
+
+## Icon Library
+
+Use an established icon library rather than creating custom icons for common actions.
+
+Suitable options include:
+
+- Qt standard icons
+- Font Awesome
+- Material Icons
+- Lucide Icons
+
+## Common Actions
+
+Use familiar icons for common actions.
+
+Examples:
+
+```text
+Add       → Plus
+Edit      → Pencil
+Delete    → Trash
+Search    → Magnifying glass
+Save      → Save
+Print     → Printer
+Import    → Upload
+Export    → Download
+Settings  → Gear
+Refresh   → Refresh
+Close     → X
+Help      → Question mark
