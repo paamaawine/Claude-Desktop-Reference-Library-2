@@ -52,3 +52,19 @@ Name:        Required
 Email:       Required
 Phone:       Required
 Address:     Optional
+
+
+# Verified Database Validation Standards
+
+Database validation should prevent invalid, incomplete or unsafe data from being stored.
+
+## Validation Levels
+
+Validation should occur at suitable levels:
+
+```text
+User Interface
+      ↓
+Application / Service
+      ↓
+Database
