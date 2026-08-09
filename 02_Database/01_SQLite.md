@@ -41,3 +41,28 @@ Views
 Foreign Keys
 
 Triggers
+
+# Verified SQLite Standards
+
+SQLite is suitable for many desktop applications that require a lightweight local database.
+
+## Purpose
+
+Use SQLite when the application needs:
+
+- Local data storage
+- Offline operation
+- A lightweight database
+- A single-user or small-user desktop application
+- Portable database files
+- Simple deployment
+
+## Database File
+
+A SQLite database is normally stored as a file.
+
+Example:
+
+```text
+data/
+└── application.db
