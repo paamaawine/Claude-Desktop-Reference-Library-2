@@ -50,3 +50,18 @@ Payments
 Reports
 Users
 
+# Verified Database Example Projects
+
+Example projects should demonstrate practical database structures and workflows that can be adapted to real desktop applications.
+
+## Example 1: Student Management
+
+A student management system may contain:
+
+```text
+Students
+Applications
+Programmes
+Departments
+Payments
+Users
