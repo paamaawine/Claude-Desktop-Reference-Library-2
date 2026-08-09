@@ -369,3 +369,51 @@ Prevents database corruption and file conflicts when multiple users or processes
 - Multi-user desktop systems
 - Version history
 - Secure enterprise storage
+
+# Verified Backup and Synchronisation Standards
+
+Backup and synchronisation features should protect important application data and reduce the risk of data loss.
+
+## Backup
+
+The application may provide:
+
+- Backup Database
+- Restore Database
+- Verify Backup
+- Automatic Backup
+- Backup History
+
+## Manual Backup
+
+Users with the required permission should be able to create a backup manually.
+
+A backup should contain the required application data and preserve database integrity.
+
+## Automatic Backup
+
+Automatic backups may run:
+
+- On application close
+- On a scheduled interval
+- Before major database changes
+- Before migrations
+
+The schedule should be configurable where appropriate.
+
+## Backup Location
+
+Backups should be stored in a controlled location.
+
+Avoid storing backups in temporary folders.
+
+Users should be able to select a suitable backup location where appropriate.
+
+## Backup Naming
+
+Use clear names that help identify the backup.
+
+Example:
+
+```text
+database_backup_2026-08-09_0815.db
