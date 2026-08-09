@@ -383,3 +383,20 @@ An excellent example of a professional database desktop application.
 - Enterprise Administration
 - Financial Applications
 - AI Desktop Applications
+
+# Verified Complete Desktop Application Standards
+
+A professional desktop application should be organised into clear layers so that the interface, business rules, data access and supporting services remain manageable.
+
+## Recommended Architecture
+
+Use:
+
+```text
+Presentation Layer
+        ↓
+Application / Service Layer
+        ↓
+Repository Layer
+        ↓
+Database
