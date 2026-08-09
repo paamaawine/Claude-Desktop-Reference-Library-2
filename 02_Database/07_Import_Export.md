@@ -205,3 +205,25 @@ For important applications, record:
 ☐ Database transaction tested
 ☐ Import history tested
 ☐ File errors handled
+
+
+# Verified Database Import and Export Standards
+
+Database import and export features should protect data quality, prevent accidental data loss and provide clear feedback.
+
+## Import Workflow
+
+Use:
+
+```text
+Select File
+    ↓
+Validate File
+    ↓
+Preview Data
+    ↓
+Validate Records
+    ↓
+Import Data
+    ↓
+Verify Result
