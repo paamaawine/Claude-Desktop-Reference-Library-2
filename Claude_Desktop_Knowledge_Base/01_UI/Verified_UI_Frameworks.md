@@ -617,3 +617,48 @@ QSequentialAnimationGroup
 QParallelAnimationGroup
 QPauseAnimation
 QVariantAnimation
+
+
+# Verified UI Framework Standards
+
+The UI framework should provide a consistent, responsive and maintainable desktop interface.
+
+## Framework Selection
+
+Choose a framework based on:
+
+- Platform support
+- Stability
+- Documentation
+- Accessibility
+- Performance
+- Available widgets
+- Project requirements
+
+## Qt
+
+Qt is suitable for professional Python desktop applications.
+
+Common Python options include:
+
+- PySide6
+- PyQt
+
+Use one Qt binding consistently within a project.
+
+## UI Structure
+
+Separate the interface from application logic.
+
+A suitable structure is:
+
+```text
+UI
+ ↓
+Controller / ViewModel
+ ↓
+Service Layer
+ ↓
+Repository
+ ↓
+Database
