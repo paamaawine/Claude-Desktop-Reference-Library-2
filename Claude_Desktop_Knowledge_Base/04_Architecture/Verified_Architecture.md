@@ -18,3 +18,21 @@ Application / Service Layer
 Repository Layer
         ↓
 Database / External Services
+
+
+# Verified Architecture Standards
+
+Professional desktop applications should use a clear architecture that separates the user interface, business rules, data access and supporting services.
+
+## Recommended Structure
+
+Use:
+
+```text
+Presentation
+     ↓
+Application / Service
+     ↓
+Repository
+     ↓
+Database
