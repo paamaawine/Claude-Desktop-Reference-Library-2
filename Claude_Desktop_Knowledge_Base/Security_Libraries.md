@@ -84,3 +84,150 @@ Avoid:
 
 ```python
 API_KEY = "real-secret-key"
+
+
+# Verified Security Library Standards
+
+Security libraries should be selected based on the application's actual security requirements.
+
+## General Rule
+
+Use established, maintained libraries rather than writing cryptographic or security functions from scratch.
+
+Security-sensitive code should be kept simple and tested carefully.
+
+## Password Security
+
+Use recognised password-hashing libraries and algorithms.
+
+Approved approaches may include:
+
+- Argon2
+- bcrypt
+- PBKDF2
+
+Never store passwords as plain text.
+
+## Cryptography
+
+Use established cryptographic libraries for:
+
+- Encryption
+- Decryption
+- Secure hashing
+- Digital signatures
+- Key management
+
+Do not implement cryptographic algorithms manually.
+
+## Secrets
+
+Do not place secrets directly in source code.
+
+Protect:
+
+- Passwords
+- API keys
+- Access tokens
+- Encryption keys
+- SMTP credentials
+- Database credentials
+
+## Input Validation
+
+Validate user input before processing it.
+
+Check:
+
+- Required fields
+- Data types
+- Length
+- Allowed values
+- File types
+- File sizes
+
+## File Security
+
+Files uploaded or imported by users should be checked before processing.
+
+Consider:
+
+- File extension
+- MIME type
+- File size
+- File contents
+- Storage location
+
+## Database Security
+
+Use:
+
+- Parameterised queries
+- Access controls
+- Secure credentials
+- Transactions
+- Input validation
+
+Never build SQL queries by directly joining untrusted user input.
+
+## Authentication
+
+Authentication should include:
+
+- Secure password storage
+- Failed-login protection
+- Session management
+- Logout
+- Password reset
+- Role-based access where required
+
+## Authorisation
+
+Authentication confirms who the user is.
+
+Authorisation determines what the user is allowed to do.
+
+Protected operations should check permissions on the server or application service layer, not only in the UI.
+
+## Security Logging
+
+Record useful security events such as:
+
+- Login
+- Logout
+- Failed login
+- Password change
+- Permission changes
+- Account lockout
+- Security errors
+
+Never log:
+
+- Passwords
+- Access tokens
+- API keys
+- Encryption keys
+
+## Dependency Security
+
+Keep security-related dependencies updated.
+
+Review dependencies for:
+
+- Known vulnerabilities
+- Maintenance status
+- Supported versions
+- Licence requirements
+
+## Security Checklist
+
+- [ ] Established security libraries used
+- [ ] Passwords securely hashed
+- [ ] Secrets protected
+- [ ] User input validated
+- [ ] Files validated
+- [ ] Database queries parameterised
+- [ ] Authentication protected
+- [ ] Authorisation enforced
+- [ ] Security events logged safely
+- [ ] Dependencies reviewed
