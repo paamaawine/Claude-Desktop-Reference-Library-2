@@ -111,3 +111,118 @@ StudentRepository
 ├── get_all()
 ├── update()
 └── delete()
+
+# Verified Database Library Standards
+
+Database libraries should be selected according to the application's data needs, scale, security requirements and deployment model.
+
+## SQLite
+
+SQLite is suitable for lightweight desktop applications that need local database storage.
+
+Use it for:
+
+- Offline applications
+- Local data
+- Small desktop systems
+- Portable database files
+- Simple deployments
+
+## SQLAlchemy
+
+SQLAlchemy provides structured database access for Python applications.
+
+Use it for:
+
+- ORM models
+- Database queries
+- Relationships
+- Transactions
+- Database abstraction
+
+## Alembic
+
+Alembic is suitable for managing database schema migrations in SQLAlchemy-based applications.
+
+Use migrations to track controlled changes to:
+
+- Tables
+- Columns
+- Indexes
+- Constraints
+- Relationships
+
+## PostgreSQL
+
+PostgreSQL is suitable for applications that require a server-based relational database and support for multiple users.
+
+## MySQL
+
+MySQL is suitable for applications that require a widely supported server-based relational database.
+
+## Microsoft SQL Server
+
+Microsoft SQL Server may be suitable for organisations that already use Microsoft infrastructure.
+
+## Oracle
+
+Oracle may be suitable for enterprise systems that already depend on Oracle database infrastructure.
+
+## Database Drivers
+
+Use a maintained driver that matches the selected database engine.
+
+The driver should be compatible with the application's Python version and database version.
+
+## Library Selection
+
+Choose database libraries based on:
+
+- Project requirements
+- Security
+- Maintenance
+- Documentation
+- Compatibility
+- Performance
+- Licence requirements
+
+Avoid adding several libraries that perform the same task without a clear reason.
+
+## Security
+
+Database libraries should support safe query practices.
+
+Use:
+
+- Parameterised queries
+- Secure connections where required
+- Protected credentials
+- Access controls
+- Transactions
+
+Never place database passwords directly in source code.
+
+## Testing
+
+Test database libraries and integrations for:
+
+- Connection
+- CRUD operations
+- Queries
+- Transactions
+- Constraints
+- Migrations
+- Error handling
+
+## Database Library Checklist
+
+- [ ] Database engine selected for project needs
+- [ ] Suitable driver selected
+- [ ] Library maintenance checked
+- [ ] Security requirements reviewed
+- [ ] Credentials protected
+- [ ] Parameterised queries used
+- [ ] Transactions supported
+- [ ] Migrations controlled where required
+- [ ] Database integration tested
+- [ ] Dependencies documented
